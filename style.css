@@ -1,0 +1,15 @@
+body {background-color:black;font-family:Arial;color:white}
+h1{color:grey;font-family:verdana}
+.maindiv {
+    background-color:white;
+    width: 300px;
+    color:black;
+    padding: 20px;
+    border-radius:25px;
+    /*the next part centers the div on the screen*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
